@@ -26,7 +26,8 @@ jobs:
       - run:
           name: Deploy to EB if branch is Master
           command: |
-            eb deploy -v --staged --profile eb-cli
+             eb use server-backend-env --profile eb-cli
+             eb deploy -v --staged --profile eb-cli
 
 workflows:
   version: 2

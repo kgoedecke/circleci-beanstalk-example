@@ -1,13 +1,18 @@
 branch-defaults:
-  develop:
-    environment: server-staging-backend-env
   master:
-    environment: server-backend-env
+    environment: circleci-beanstalk-example-dev
+    group_suffix: null
 global:
-  application_name: server-backend
-  default_ec2_keyname: null
+  application_name: circleci-beanstalk-example
+  branch: null
+  default_ec2_keyname: magic-secret-key-goes-here
   default_platform: Node.js
   default_region: eu-central-1
   include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: null
   sc: git
   workspace_type: Application
