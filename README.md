@@ -14,7 +14,14 @@ This example shows how to deploy to AWS Elastic Beanstalk (EBS) using [CircleCI 
 - CircleCI linked to Github or Bitbucket
 
 # Usage
-TBA
+1. Connect CircleCI to your Git
+2. Spin up your Beanstalk environment either using the AWS Management Console or the AWS CLI
+3. Replace the environment name in `.circleci/config.yml` with your Beanstalk environment name
+4. Replace the environment and application name in `.elasticbeanstalk/config.yml`
+5. Change the platform (Node, PHP, ...) and AWS Region in `.elasticbeanstalk/config.yml` if needed
+6. Push to your master branch to trigger the CircleCI build
+
+For more details see the tutorial below.
 
 # Tutorial
-TBA
+[KevinGoedecke.me - How to deploy to Beanstalk using CircleCI 2.0](https://kevingoedecke.me/2018/03/12/circleci-2-0-beanstalk-example-tutorial/)
