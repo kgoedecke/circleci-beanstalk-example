@@ -24,4 +24,4 @@ This example shows how to deploy to AWS Elastic Beanstalk (EBS) using [CircleCI 
 For more details see the tutorial below.
 
 # Tutorial
-[KevinGoedecke.me - How to deploy to Beanstalk using CircleCI 2.0](https://kevingoedecke.me/2018/03/12/circleci-2-0-beanstalk-example-tutorial/)
+[KevinGoedecke.com - How to deploy to Beanstalk using CircleCI 2.0](https://kevingoedecke.com/2018/03/12/circleci-2-0-beanstalk-example-tutorial/)
